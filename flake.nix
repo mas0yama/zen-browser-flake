@@ -8,6 +8,7 @@
   outputs = { self, nixpkgs }:
     let
       system = "x86_64-linux";
+	  description = "zen browser";
       version = "1.0.1-a.6";
       downloadUrl = {
         "specific" = {
